@@ -8,7 +8,8 @@
     "prepare": "husky install",
     "dev": "nodemon src/app.js",
     "start": "node src/app.js",
-    "pre-prod": "pm2 start src/app.js -i 0"
+    "pre-prod": "pm2 start src/app.js -i 0",
+    "stop-pre-prod": "pm2 stop all"
   },
   "author": "Paul-Sanga",
   "license": "ISC",
